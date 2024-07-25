@@ -1,0 +1,30 @@
+{
+  "name": "nextcloudextract",
+  "version": "1.0.0",
+  "description": "Place this app in **nextcloud/apps/**",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite --mode production build",
+    "dev": "vite --mode development build",
+    "watch": "vite --mode development build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mix5003/NextcloudExtract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mix5003/NextcloudExtract/issues"
+  },
+  "homepage": "https://github.com/mix5003/NextcloudExtract#readme",
+  "dependencies": {
+    "@nextcloud/files": "^3.7.0",
+    "@nextcloud/router": "^3.0.1",
+    "@nextcloud/vite-config": "^2.1.0",
+    "@vue/tsconfig": "^0.5.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
+  }
+}
