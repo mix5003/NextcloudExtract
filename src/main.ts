@@ -28,7 +28,7 @@ function actionHandler(type: string, file: Node, dir: string) {
         };
         $.ajax({
             type: "POST",
-            url: generateFilePath('extract', 'ajax', 'extract.php'),
+            url: generateFilePath('extractmix', 'ajax', 'extract.php'),
             data: data,
             success: function(response) {
                 if (response.code === 1) {
