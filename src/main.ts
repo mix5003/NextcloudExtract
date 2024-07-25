@@ -2,11 +2,9 @@ import {
     DefaultType,
     FileAction,
     type Node,
-    Permission,
     registerFileAction
 } from '@nextcloud/files';
 import {
-    generateUrl,
     generateFilePath
 } from '@nextcloud/router';
 
@@ -33,6 +31,7 @@ function actionHandler(type: string, file: Node, dir: string) {
             success: function(response) {
                 if (response.code === 1) {
                     // context.fileList.reload();
+                    location.reload();
                     resolve(true);
                 } else {
                     alert(response.desc)
