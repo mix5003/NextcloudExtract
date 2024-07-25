@@ -2,7 +2,7 @@ import { createAppConfig } from '@nextcloud/vite-config';
 
 export default createAppConfig(
   {
-    extraction: 'src/extraction.ts',
+    main: 'src/main.ts',
   },
   {
     emptyOutputDirectory: false,

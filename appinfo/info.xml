@@ -32,7 +32,7 @@
     <version>1.4.0</version>
     <licence>agpl</licence>
     <author mail="paulereverend@gmail.com">Paul Lereverend</author>
-    <namespace>ExtractMix</namespace>
+    <namespace>Extract</namespace>
     <category>files</category>
     <category>tools</category>
     <website>https://github.com/PaulLereverend/NextcloudExtract</website>
