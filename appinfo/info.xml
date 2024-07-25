@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>extract-mix</id>
+    <id>extractmix</id>
     <name>Extract Mix</name>
     <summary>Extract archive from the web interface</summary>
     <screenshot>https://raw.githubusercontent.com/PaulLereverend/NextcloudExtract/master/img/extract.png</screenshot>
@@ -32,7 +32,7 @@
     <version>1.4.0</version>
     <licence>agpl</licence>
     <author mail="paulereverend@gmail.com">Paul Lereverend</author>
-    <namespace>Extract</namespace>
+    <namespace>ExtractMix</namespace>
     <category>files</category>
     <category>tools</category>
     <website>https://github.com/PaulLereverend/NextcloudExtract</website>
